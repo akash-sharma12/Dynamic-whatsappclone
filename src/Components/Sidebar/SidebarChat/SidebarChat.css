@@ -1,0 +1,56 @@
+
+.sidebar__chats {
+  
+    background-color: #ededed;
+    overflow: hidden;
+    flex: 1;
+
+}
+
+.sidebar__chats :hover{
+    background-color: #e0dfdf;
+}
+
+.sidebarchat__info {
+    display: flex;
+    width: 295px;
+    height: 70px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc9c9;
+
+
+}
+
+
+.userfacechat{
+  
+    font-size: 3rem;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+.chatinfo {
+    
+    margin: 8px;
+    margin-left: 15px;
+}
+.lastmessage {
+    margin-left: 3px;
+}
+    
+.multiuser {
+    margin-top: 15px;
+    margin-left: 55px;
+    font-size: 12px;
+}
+
+.sidebarChat {
+    padding: 8px;
+    background-color: #f3f1f1;
+    width: 400px;
+}
+
